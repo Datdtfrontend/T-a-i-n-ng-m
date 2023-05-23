@@ -7,9 +7,8 @@
     border-bottom: 1px solid #000;
     display: flex;
     justify-content: space-between;
-    padding-left: 200px;
+    padding-left: 245px;
     padding-right: 200px;
-
 }
 .header__info__active{
     position: relative;
@@ -142,7 +141,7 @@ i.app-info__logo.fa-solid.fa-train {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 16px;
+    margin-top: 15px;
     margin-left: 105px;
 }
 .common__task__bar{
@@ -154,6 +153,9 @@ i.app-info__logo.fa-solid.fa-train {
 }
 .station__page:hover, 
 .company__page:hover{
+    color: #422f85;
+}
+.main__page:hover{
     color: #422f85;
 }
 .company__page:hover .fa-change-padding,
@@ -340,13 +342,41 @@ input.input__searching {
 }
 
 /*Container demo*/
-.container__demo{
+.container{
     width: 1200px;
-    margin: 70px auto;
+    margin: 0px auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
+/*Search bar*/
 
+.change__form__inline_2{
+    width: 67%;
+    margin-left: 282px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.change-form-control_2{
+    height: 45px;
+    font-size: 16px;
+}
+.changebtn{
+    height: 45px;
+    background-color: #422f85;
+    color: white;
+    font-weight: 500;
+    width: 65px;
+    border: #422f85;
+    font-size: 14px;
+}
+.changebtn:hover{
+    background-color: white;
+    color: #422f85;
+    font-weight: 700;
+    border: 1px solid #422f85;
+}
 .cardWrap {
     width: 100%;
     margin: 3em auto;
@@ -431,7 +461,7 @@ input.input__searching {
 }
 i.app-info__logo.fa-solid.fa-train {
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
 }
 .app-info__logo{
     align-items: center;
@@ -465,7 +495,7 @@ i.app-info__logo.fa-solid.fa-train {
 }
 .name__content{
     font-size: 22px;
-    padding-top: 7px;
+    padding-top: 2px;
     font-weight: 600;
     font-family: roboto;
 }
@@ -506,6 +536,7 @@ i.app-info__logo.fa-solid.fa-train {
 }
 .location_div{
     width: 627px;
+    margin-top: 10px;
     height: 250px;
     position: absolute;
     z-index: 2;
